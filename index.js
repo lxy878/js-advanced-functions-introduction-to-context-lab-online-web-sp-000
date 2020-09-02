@@ -15,6 +15,7 @@ function createEmployeeRecords(array2d){
 }
 
 function createTimeInEvent(record, date){
+  // fix
   const timeIn = date.split(' ');
   const newObj = {
     'type': 'TimeIn',
