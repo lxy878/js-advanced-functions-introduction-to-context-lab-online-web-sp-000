@@ -26,6 +26,7 @@ function createTimeInEvent(record, date){
 }
 
 function createTimeOutEvent(record, date){
+  // fix
   const timeOut = date.split(' ');
   const newObj = {
     'type': 'TimeOut',
